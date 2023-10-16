@@ -1,22 +1,15 @@
 {
   "name": "portfolio-react",
-  "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "react",
+    "build": "react-scripts build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "preview": "react preview"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -29,8 +22,5 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "vite": "^4.4.5"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
