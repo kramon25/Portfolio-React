@@ -62,9 +62,9 @@ export default function Portfolio() {
             <PortfolioCard
               imgPath={notetaker}
               isBlog={false}
-              title="Note Taker"
+              title="Heroku App Note Taker"
               description=""
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://kenny-note-taker-46d557d7d38a.herokuapp.com/notes"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
