@@ -1,10 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import Logo from "../../src/assets/images/myavatar.png";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 
@@ -50,7 +47,7 @@ export default function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={"./myavatar.PNG"}
+                src={Logo}
                 alt="avatar"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
