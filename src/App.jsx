@@ -1,4 +1,4 @@
-import Navbar from "../src/navbar";
+import Navbar from "./Navbar";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
