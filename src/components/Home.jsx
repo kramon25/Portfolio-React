@@ -98,11 +98,7 @@ export default function Home() {
                 </i>
               </p>
             </Col>
-            <Col md={4} className="myAvtar">
-              <Tilt>
-                <img src="" className="img-fluid" alt="avatar" />
-              </Tilt>
-            </Col>
+            <Col md={4} className="myAvtar"></Col>
           </Row>
           <Row>
             <Col md={12} className="home-about-social">

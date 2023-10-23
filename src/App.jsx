@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Home from "./components/Home";
 import { Route, Routes } from "react-router-dom";
+import "../src/style.css";
 
 function App() {
   return (
