@@ -17,15 +17,29 @@ export default function Portfolio() {
         <p style={{ color: "black" }}>
           Here are a few projects I have worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row
+          style={{
+            justifyContent: "center",
+            paddingBottom: "10px",
+            fontSize: "20px",
+          }}
+        >
           <Col md={4} className="project-card">
             <PortfolioCard
               imgPath={travel}
               isBlog={false}
               title="TravelPlanner"
               description=""
-              ghLink="https://blam1226.github.io/Travel-Planner/index.html"
+              ghLink="https://github.com/BLam1226/Travel-Planner"
             />
+            <button className="portBtn">
+              <a
+                className="linkBtn"
+                href="https://blam1226.github.io/Travel-Planner/index.html"
+              >
+                Click to View
+              </a>
+            </button>
           </Col>
 
           <Col md={4} className="project-card">
@@ -34,8 +48,16 @@ export default function Portfolio() {
               isBlog={false}
               title="Omnifood"
               description=""
-              ghLink="https://kramon25.github.io/omnifood/"
+              ghLink="https://github.com/kramon25/omnifood"
             />
+            <button className="portBtn">
+              <a
+                className="linkBtn"
+                href="https://kramon25.github.io/omnifood/"
+              >
+                Click to View
+              </a>
+            </button>
           </Col>
 
           <Col md={4} className="project-card">
@@ -44,8 +66,16 @@ export default function Portfolio() {
               isBlog={false}
               title="WeatherApp"
               description=""
-              ghLink="https://kramon25.github.io/Weather-App/"
+              ghLink="https://github.com/kramon25/Weather-App"
             />
+            <button className="portBtn">
+              <a
+                className="linkBtn"
+                href="https://kramon25.github.io/Weather-App/"
+              >
+                Click to View
+              </a>
+            </button>
           </Col>
 
           <Col md={4} className="project-card">
@@ -54,8 +84,16 @@ export default function Portfolio() {
               isBlog={false}
               title="Password Generator"
               description=""
-              ghLink="https://kramon25.github.io/Kenny-password-generator/"
+              ghLink="https://github.com/kramon25/Kenny-password-generator"
             />
+            <button className="portBtn">
+              <a
+                className="linkBtn"
+                href="https://kramon25.github.io/Kenny-password-generator/"
+              >
+                Click to View
+              </a>
+            </button>
           </Col>
 
           <Col md={4} className="project-card">
@@ -64,9 +102,17 @@ export default function Portfolio() {
               isBlog={false}
               title="Heroku App Note Taker"
               description=""
-              ghLink="https://kenny-note-taker-46d557d7d38a.herokuapp.com/notes"
+              ghLink="https://github.com/kramon25/Note-Taker"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
+            <button className="portBtn">
+              <a
+                className="linkBtn"
+                href="https://kenny-note-taker-46d557d7d38a.herokuapp.com/notes"
+              >
+                Click to View
+              </a>
+            </button>
           </Col>
 
           <Col md={4} className="project-card">
@@ -75,9 +121,17 @@ export default function Portfolio() {
               isBlog={false}
               title="Workday Schedule"
               description=""
-              ghLink="https://kramon25.github.io/Calendar/"
+              ghLink="https://github.com/kramon25/Calendar"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
+            <button className="portBtn">
+              <a
+                className="linkBtn"
+                href="https://kramon25.github.io/Calendar/"
+              >
+                Click to View
+              </a>
+            </button>
           </Col>
         </Row>
       </Container>

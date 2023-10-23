@@ -1,64 +1,39 @@
 export default function Contact() {
   return (
-    <div className="container-fluid tm-mt-60">
-      <div className="row tm-mb-50">
-        <div className="col-lg-4 col-12 mb-5">
-          <h2 className="tm-text-primary mb-5">Contact Me</h2>
-          <form
-            id="contact-form"
-            action=""
-            method="POST"
-            className="tm-contact-form mx-auto"
-          >
-            <div className="form-group">
-              <input
-                type="text"
-                name="name"
-                className="form-control rounded-0"
-                placeholder="Name"
-                required
-              />
-            </div>
-            <div className="form-group">
-              <input
-                type="email"
-                name="email"
-                className="form-control rounded-0"
-                placeholder="Email"
-                required
-              />
-            </div>
-            <div className="form-group">
-              <select
-                className="form-control"
-                id="contact-select"
-                name="inquiry"
-              >
-                <option value="-">Subject</option>
-                <option value="front">Front End</option>
-                <option value="back">Back End</option>
-                <option value="fullstack">Fullstack</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-            <div className="form-group">
-              <textarea
-                rows="8"
-                name="message"
-                className="form-control rounded-0"
-                placeholder="Message"
-                required=""
-              ></textarea>
-            </div>
-
-            <div className="form-group tm-text-right">
-              <button type="submit" className="btn btn-primary">
-                Send
-              </button>
-            </div>
-          </form>
-        </div>
+    <section id="contact">
+      <div className="sectionheader">
+        {" "}
+        <h1>CONTACT</h1>
       </div>
-    </div>
+      <article>
+        <p>Email Me </p>
+
+        <label htmlFor="checkcontact" className="contactbutton">
+          <div className="mail"></div>
+        </label>
+        <input id="checkcontact" type="checkbox" />
+
+        <form action="" method="post" className="contactform">
+          <p className="input_wrapper">
+            <input type="input" name="contact_nom" id="contact_nom" />
+            <label htmlFor="contact_nom">NAME</label>
+          </p>
+          <p className="input_wrapper">
+            <input type="input" name="contact_email" id="contact_email"></input>
+            <label htmlFor="contact_email">EMAIL</label>
+          </p>
+          <p className="input_wrapper">
+            <input type="input" name="contact_sujet" id="contact_sujet" />
+            <label htmlFor="contact_sujet">SUBJECT</label>
+          </p>
+          <p className="textarea_wrapper">
+            <textarea name="contact_message" id="contact_message"></textarea>
+          </p>
+          <p className="submit_wrapper">
+            <input type="submit" value="ENVOYER" />
+          </p>
+        </form>
+      </article>
+    </section>
   );
 }
