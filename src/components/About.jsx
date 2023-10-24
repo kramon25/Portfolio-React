@@ -6,7 +6,7 @@ export default function About() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "center" }}>
+          <p style={{ textAlign: "center", fontSize: "20px" }}>
             Hi Everyone! I am <span className="purple">Kenneth Ramondo </span>
             from <span className="purple"> Newtown Square, Pennsylvania.</span>
             <br /> I am a coding student pursuing a full stack web developement
@@ -29,11 +29,6 @@ export default function About() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
-          <p style={{ color: "rgb(30, 173, 255)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Ramondo</footer>
         </blockquote>
       </Card.Body>
     </Card>
