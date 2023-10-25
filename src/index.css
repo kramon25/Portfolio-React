@@ -30,6 +30,24 @@ body {
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .nav {
+    display: flex !important;
+    font-size: 1rem !important;
+    justify-content: center !important;
+  }
+  div .siteName {
+    font-size: 1rem !important;
+  }
+
+  div .img-fluid {
+    max-height: 500px !important;
+  }
+
+  div .one {
+    max-height: 300px !important;
+  }
+}
 .nav {
   background-color: #333;
   color: #fff;
@@ -79,25 +97,6 @@ body {
 
 .nav li:hover {
   color: #777;
-}
-
-@media screen and (max-width: 767px) {
-  .nav {
-    display: flex !important;
-    font-size: 1rem !important;
-    justify-content: center !important;
-  }
-  div .siteName {
-    font-size: 1rem !important;
-  }
-
-  div .img-fluid {
-    max-height: 500px !important;
-  }
-
-  div .one {
-    max-height: 300px !important;
-  }
 }
 
 /* ******************HOME SECTION****************** */
