@@ -3,7 +3,6 @@ import Typewriter from "typewriter-effect";
 import Logo from "../../src/assets/images/myavatar.png";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import Tilt from "react-parallax-tilt";
 
 export default function Home() {
   return (
