@@ -15,19 +15,46 @@ export default function Contact() {
 
         <form action="" method="post" className="contactform">
           <p className="input_wrapper">
-            <input type="input" name="contact_nom" id="contact_nom" />
+            <input
+              type="input"
+              name="contact_nom"
+              id="contact_nom"
+              required
+              minLength={4}
+              maxLength={30}
+            />
             <label htmlFor="contact_nom">NAME</label>
           </p>
           <p className="input_wrapper">
-            <input type="input" name="contact_email" id="contact_email"></input>
+            <input
+              type="input"
+              name="contact_email"
+              id="contact_email"
+              required
+              minLength={4}
+              maxLength={30}
+            ></input>
             <label htmlFor="contact_email">EMAIL</label>
           </p>
           <p className="input_wrapper">
-            <input type="input" name="contact_sujet" id="contact_sujet" />
+            <input
+              type="input"
+              name="contact_sujet"
+              id="contact_sujet"
+              required
+              minLength={1}
+              maxLength={30}
+            />
             <label htmlFor="contact_sujet">SUBJECT</label>
           </p>
           <p className="textarea_wrapper">
-            <textarea name="contact_message" id="contact_message"></textarea>
+            <textarea
+              name="contact_message"
+              id="contact_message"
+              required
+              minLength={1}
+              maxLength={50}
+            ></textarea>
           </p>
           <p className="submit_wrapper">
             <input type="submit" value="ENVOYER" />
