@@ -87,7 +87,7 @@ body {
     gap: 0;
     justify-content: space-around;
   }
-  .nav div {
+  div .siteName {
     display: none !important;
   }
 

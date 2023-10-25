@@ -15,14 +15,7 @@ export default function Contact() {
 
         <form action="" method="post" className="contactform">
           <p className="input_wrapper">
-            <input
-              type="input"
-              name="contact_nom"
-              id="contact_nom"
-              required
-              minLength={4}
-              maxLength={30}
-            />
+            <input type="input" name="contact_nom" id="contact_nom" required />
             <label htmlFor="contact_nom">NAME</label>
           </p>
           <p className="input_wrapper">
@@ -31,8 +24,6 @@ export default function Contact() {
               name="contact_email"
               id="contact_email"
               required
-              minLength={4}
-              maxLength={30}
             ></input>
             <label htmlFor="contact_email">EMAIL</label>
           </p>
@@ -42,8 +33,6 @@ export default function Contact() {
               name="contact_sujet"
               id="contact_sujet"
               required
-              minLength={1}
-              maxLength={30}
             />
             <label htmlFor="contact_sujet">SUBJECT</label>
           </p>
@@ -52,8 +41,6 @@ export default function Contact() {
               name="contact_message"
               id="contact_message"
               required
-              minLength={1}
-              maxLength={50}
             ></textarea>
           </p>
           <p className="submit_wrapper">
