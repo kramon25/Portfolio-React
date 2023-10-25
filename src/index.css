@@ -83,9 +83,9 @@ body {
 
 @media screen and (max-width: 767px) {
   .nav {
-    display: flex;
-    font-size: 1rem;
-    justify-content: center;
+    display: flex !important;
+    font-size: 1rem !important;
+    justify-content: center !important;
   }
   div .siteName {
     font-size: 1rem !important;
