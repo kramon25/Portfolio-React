@@ -87,12 +87,12 @@ body {
     gap: 0;
     justify-content: space-around;
   }
-  .siteName {
+  .nav div {
     display: none !important;
   }
 
   .img-fluid {
-    max-height: 300px !important;
+    max-height: 350px !important;
   }
 }
 
