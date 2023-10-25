@@ -91,7 +91,11 @@ body {
     display: none !important;
   }
 
-  .img-fluid {
+  div .img-fluid {
+    max-height: 500px !important;
+  }
+
+  div .one {
     max-height: 350px !important;
   }
 }

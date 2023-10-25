@@ -48,7 +48,7 @@ export default function Home() {
               <img
                 src={Logo}
                 alt="avatar"
-                className="img-fluid"
+                className="img-fluid one"
                 style={{ maxHeight: "450px" }}
               />
             </Col>
