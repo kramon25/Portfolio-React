@@ -81,10 +81,10 @@ body {
   color: #777;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .nav {
     display: flex;
-    font-size: 0.5rem;
+    font-size: 1rem;
     justify-content: center;
   }
   div .siteName {
