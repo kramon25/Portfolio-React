@@ -81,7 +81,7 @@ body {
   color: #777;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width: 500px) {
   .nav {
     display: flex;
     gap: 0;
