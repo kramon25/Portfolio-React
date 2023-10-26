@@ -35,3 +35,42 @@
     transform: rotate(0deg);
   }
 }
+
+@media (max-width: 500px) {
+  #contact {
+    width: 100%;
+  }
+  .input_wrapper label {
+    line-height: 3.5em;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 767px) {
+  .Typewriter__wrapper {
+    font-size: 1.4em !important;
+    font-weight: 500 !important;
+  }
+  .Typewriter__cursor {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav {
+    display: flex !important;
+    font-size: 1rem !important;
+    justify-content: center !important;
+  }
+  nav .siteName {
+    display: none !important;
+  }
+
+  div .img-fluid {
+    max-height: 500px !important;
+  }
+
+  div .one {
+    max-height: 300px !important;
+  }
+}
