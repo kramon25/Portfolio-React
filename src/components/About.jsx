@@ -28,6 +28,9 @@ export default function About() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
+            <li className="about-activity">
+              <ImPointRight /> Snowboarding
+            </li>
           </ul>
         </blockquote>
       </Card.Body>
