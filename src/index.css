@@ -479,3 +479,9 @@ body {
   margin-left: 2px;
   margin-bottom: 0px;
 }
+
+@media (max-width: 767px) {
+  #contact {
+    width: 300px;
+  }
+}
