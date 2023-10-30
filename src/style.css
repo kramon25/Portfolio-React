@@ -38,7 +38,8 @@
 
 @media (max-width: 500px) {
   .resum {
-    max-height: 500px;
+    max-height: 500px !important;
+    max-width: 400px !important;
   }
   .input_wrapper label {
     line-height: 3.5em;
