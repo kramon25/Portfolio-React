@@ -23,7 +23,7 @@ export default function Resume() {
             <img
               src={pdf}
               alt="resume"
-              className="img-fluid"
+              className="img-fluid resum"
               style={{ maxHeight: "800px" }}
             />
           </Col>

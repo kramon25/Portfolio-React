@@ -37,8 +37,8 @@
 }
 
 @media (max-width: 500px) {
-  #contact {
-    width: 100%;
+  .resum {
+    max-height: 500px;
   }
   .input_wrapper label {
     line-height: 3.5em;
