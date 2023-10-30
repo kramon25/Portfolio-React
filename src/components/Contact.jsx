@@ -20,9 +20,8 @@ export default function Contact() {
               name="contact_nom"
               id="contact_nom"
               required="required"
-              placeholder="Please enter your name"
+              placeholder="Name"
             />
-            <label htmlFor="contact_nom">NAME</label>
           </p>
           <p className="input_wrapper">
             <input
@@ -30,18 +29,16 @@ export default function Contact() {
               name="contact_email"
               id="contact_email"
               required="required"
-              placeholder="Please enter your email"
+              placeholder="Email"
             ></input>
-            <label htmlFor="contact_email">EMAIL</label>
           </p>
           <p className="input_wrapper">
             <input
               type="input"
               name="contact_sujet"
               id="contact_sujet"
-              placeholder="Optional"
+              placeholder="Subject: Optional"
             />
-            <label htmlFor="contact_sujet">SUBJECT</label>
           </p>
           <p className="textarea_wrapper">
             <textarea

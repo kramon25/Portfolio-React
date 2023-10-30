@@ -258,6 +258,7 @@ body {
   background: rgb(238, 237, 237);
   position: relative;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2%;
 }
 #contact::after {
   content: "";
@@ -392,7 +393,6 @@ body {
   -o-transition: all 250ms ease;
   transition: all 250ms ease;
   color: #5e5e5e;
-  text-indent: 15%;
 }
 .input_wrapper input[type="text"]:focus {
   background: rgba(242, 56, 90, 0.05);
@@ -405,7 +405,7 @@ body {
   left: 0;
   top: 0;
   height: 100%;
-  background: #1e90ff;
+  /* background: #1e90ff; */
   color: white;
   font-family: Oswald, sans-serif;
   box-sizing: border-box;

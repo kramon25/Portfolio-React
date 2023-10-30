@@ -36,10 +36,9 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .resum {
-    max-height: 500px !important;
-    max-width: 400px !important;
+    max-width: 100% !important;
   }
   .input_wrapper label {
     line-height: 3.5em;
