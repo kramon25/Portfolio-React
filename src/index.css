@@ -251,15 +251,14 @@ body {
 /* --------- */
 /* Contact Section*/
 /* --------- */
-
 #contact {
   width: 500px;
   margin: 2em auto;
   background: rgb(238, 237, 237);
   position: relative;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 2%;
+  border-radius: 1%;
 }
+
 #contact::after {
   content: "";
   display: block;
@@ -273,10 +272,44 @@ body {
   border-radius: 100%;
   z-index: -1;
 }
+
 #contact article {
   padding: 1em;
 }
+
 #contact h1 {
+  background: #1e90ff;
+  font-family: Oswald, sans-serif;
+  font-size: 1.75em;
+  padding: 0.6em 0 0.6em 0.4em;
+  color: white;
+  text-shadow: 0 0.06em 0 #424242;
+  position: relative;
+}
+.contactform {
+  margin: 2em auto;
+  background: rgb(238, 237, 237);
+  position: relative;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2%;
+}
+.contactform::after {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 90%;
+  left: 5%;
+  bottom: 0;
+  position: absolute;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 100%;
+  z-index: -1;
+}
+.contactform article {
+  padding: 1em;
+}
+.contactform h1 {
   background: #1e90ff;
   font-family: Oswald, sans-serif;
   font-size: 1.75em;
@@ -376,7 +409,7 @@ body {
   transition: all 250ms ease;
   color: #5e5e5e;
 }
-.input_wrapper input[type="input"] {
+.input_wrapper input[type="text"] {
   margin-top: 1em;
   display: block;
   width: 100%;
@@ -421,25 +454,7 @@ body {
 .input_wrapper input[type="text"]:focus + label {
   left: 85%;
 }
-.textarea_wrapper textarea {
-  margin-top: 20px;
-  display: block;
-  width: 100%;
-  min-height: 150px;
-  background: white;
-  border: 1px solid #dadada;
-  box-shadow: 0 0 1px 0 #e4e4e4;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 1em;
-  -webkit-transition: all 250ms ease;
-  -moz-transition: all 250ms ease;
-  -ms-transition: all 250ms ease;
-  -o-transition: all 250ms ease;
-  transition: all 250ms ease;
-  color: #5e5e5e;
-}
+
 .textarea_wrapper textarea:focus {
   background: rgba(242, 56, 90, 0.05);
   box-shadow: inset 2px 2px 5px 0 #dadada;
@@ -480,8 +495,12 @@ body {
   margin-bottom: 0px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
   #contact {
     width: 300px;
+  }
+  .input_wrapper label {
+    line-height: 3.5em;
+    font-size: 0.8em;
   }
 }
