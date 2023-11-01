@@ -22,6 +22,7 @@ export default function Home() {
                 I'M
                 <strong className="main-name"> KENNY RAMONDO</strong>
               </h1>
+              <h5>(FULLSTACK WEB DEVELOPER)</h5>
               <Typewriter
                 options={{
                   strings: [
