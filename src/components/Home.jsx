@@ -25,7 +25,6 @@ export default function Home() {
               <Typewriter
                 options={{
                   strings: [
-                    "FULLSTACK WEB DEVELOPER",
                     "HTML",
                     "CSS",
                     "JAVASCRIPT",
