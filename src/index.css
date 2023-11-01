@@ -324,12 +324,16 @@ body {
     3px 3px 0 0 #0c549c;
   box-shadow: 1px 1px 0 0 #0c549c, 2px 2px 0 0 #0c549c, 3px 3px 0 0 #0c549c;
   text-align: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
   display: block;
   width: 100%;
   height: 50px;
   margin-top: 20px;
   margin-bottom: 2px;
   cursor: pointer;
+  border: none;
 }
 .contactbutton:hover {
   -webkit-box-shadow: 1px 1px 0 0 #0c549c, 0px 0px 0 0 #0c549c,
