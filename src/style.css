@@ -48,8 +48,8 @@
 
 @media (max-width: 750px) {
   .Typewriter__wrapper {
-    font-size: 1.4em !important;
-    font-weight: 500 !important;
+    font-size: 1em !important;
+    font-weight: 400 !important;
   }
   .Typewriter__cursor {
     display: none !important;

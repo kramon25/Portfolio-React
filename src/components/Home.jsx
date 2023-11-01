@@ -61,11 +61,11 @@ export default function Home() {
               <p className="home-about-body">
                 I struggled for years figuring out what I wanted to do in life.
                 I have friends who work in backend and Cyber Security and they
-                kept pushing me to learn coding. I started with Python, which
-                caught my attention at first, then I fell off. I was introduced
+                kept pushing me to learn coding.I started with Python, which
+                cuaght my attention at first, then I fell off. I was introduced
                 to HTML AND CSS, through Udemy, with a little bit of Javascript
                 and immediately had the time of my life. I fell in love with
-                programming and I may not know everything but I have at least
+                programming and Imay not know everything but I have at least
                 learnt something, I think… 🤷‍♂️
                 <br />
                 <br />I am fluent in classics like

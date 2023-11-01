@@ -8,7 +8,8 @@ body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  /* height: 100vh; */
+  height: 100vh;
+  overflow: auto;
 }
 
 @keyframes gradient {
@@ -101,12 +102,13 @@ body {
 }
 
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
+  font-size: 2em !important;
   color: white !important;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
+  padding: 10px;
 }
 .Typewriter__cursor {
-  font-size: 2.4em !important;
+  font-size: 2em !important;
   color: #b562d6 !important;
 }
 
