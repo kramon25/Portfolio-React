@@ -72,4 +72,7 @@
   div .one {
     max-height: 300px !important;
   }
+  div .two {
+    max-height: 200px !important;
+  }
 }

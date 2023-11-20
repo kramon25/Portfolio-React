@@ -6,6 +6,7 @@ import weather from "../../src/assets/images/updatedweather.png";
 import password from "../../src/assets/images/password-gen.png";
 import notetaker from "../../src/assets/images/notetaker.png";
 import calendar from "../../src/assets/images/calendar.png";
+import project from "../../src/assets/images/pr3.png";
 
 export default function Portfolio() {
   return (
@@ -24,6 +25,23 @@ export default function Portfolio() {
             fontSize: "20px",
           }}
         >
+          <Col md={4} className="project-card">
+            <PortfolioCard
+              imgPath={project}
+              isBlog={false}
+              title="BEATSPHERE"
+              description="BeatSphere is a MERN Stack React application, designed to allow users to discover the most popular songs around the world in each country. This application simplifies the discovery of top songs by letting the user select a country around the world and show the top 5 songs in that country. The user can then search and listen to the songs they discover on the Spotify Player page although this requires a Spotify Premium account."
+              ghLink="https://github.com/BLam1226/BeatSphere"
+            />
+            <button className="portBtn">
+              <a
+                className="linkBtn"
+                href="https://beat-sphere-be92cb90b28f.herokuapp.com/"
+              >
+                Click to View
+              </a>
+            </button>
+          </Col>
           <Col md={4} className="project-card">
             <PortfolioCard
               imgPath={travel}

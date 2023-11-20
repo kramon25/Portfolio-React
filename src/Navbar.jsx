@@ -1,6 +1,12 @@
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { NavLink, Link, useMatch, useResolvedPath } from "react-router-dom";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [showNavbar, setShowNavbar] = useState(false);
+
+  const handleShowNavbar = () => {
+    setShowNavbar(!showNavbar);
+  };
   return (
     <nav className="nav">
       <div>
@@ -8,13 +14,21 @@ export default function Navbar() {
           Ramondo
         </Link>
       </div>
-      <ul>
-        <CustomLink to="/">Home</CustomLink>
-        <CustomLink to="/About">About</CustomLink>
-        <CustomLink to="/Portfolio">Portfolio</CustomLink>
-        <CustomLink to="/Contact">Contact</CustomLink>
-        <CustomLink to="/Resume">Resume</CustomLink>
-      </ul>
+      <div>
+        <div className="menu-icon" onClick={handleShowNavbar}>
+          Navigation
+        </div>
+        <div className={`nav-elements  ${showNavbar && "active"}`}>
+          <ul>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/About">About</NavLink>
+            <NavLink to="/Portfolio">Portfolio</NavLink>
+            <NavLink to="/Contact">Contact</NavLink>
+            <NavLink to="/Resume">Resume</NavLink>
+            <NavLink to="/Certs">Certs</NavLink>
+          </ul>
+        </div>
+      </div>
     </nav>
   );
 }

@@ -43,7 +43,7 @@ export default function Resume() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &#x1F50D; Download CV
+            &#x1F50D; Click To View
           </Button>
         </Row>
       </Container>

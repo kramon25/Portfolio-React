@@ -23,12 +23,14 @@ const Contact = () => {
     emailjs.send(serviceId, templateId, templateParams, publicKey).then(
       function (response) {
         console.log("Email sent successfully!", response);
+        alert("Email sent successfully!", response);
         setName("");
         setEmail("");
         setMessage("");
       },
       function (error) {
         console.log("FAILED...", error);
+        alert("Email was unsuccessful");
       }
     );
     e.target.reset();
