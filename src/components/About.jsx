@@ -20,16 +20,34 @@ export default function About() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <strong className="purple">
+                <ImPointRight />
+              </strong>{" "}
+              Playing Video Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Going to the gym + being active
+              <strong className="purple">
+                <ImPointRight />
+              </strong>{" "}
+              Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <strong className="purple">
+                <ImPointRight />
+              </strong>{" "}
+              Concerts
             </li>
             <li className="about-activity">
-              <ImPointRight /> Snowboarding
+              <strong className="purple">
+                <ImPointRight />
+              </strong>{" "}
+              Snowboarding
+            </li>
+            <li className="about-activity">
+              <strong className="purple">
+                <ImPointRight />
+              </strong>{" "}
+              Going to the gym + Being active
             </li>
           </ul>
         </blockquote>
