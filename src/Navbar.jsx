@@ -25,7 +25,7 @@ export default function Navbar() {
             <NavLink to="/Portfolio">Portfolio</NavLink>
             <NavLink to="/Contact">Contact</NavLink>
             <NavLink to="/Resume">Resume</NavLink>
-            <NavLink to="/Certs">Certs</NavLink>
+            <NavLink to="/Certs">Certifications</NavLink>
           </ul>
         </div>
       </div>

@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-// import Particle from "../Particle";
-import pdf from "../../src/assets/images/resume.png";
+
+import pdf from "../../src/assets/images/FullStackResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page } from "react-pdf";
-// import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 export default function Resume() {
   const [width, setWidth] = useState(1200);
@@ -19,31 +19,33 @@ export default function Resume() {
     <div>
       <Container fluid className="resume-section">
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Col md={5} style={{ paddingBottom: 20 }}>
-            <img
-              src={pdf}
-              alt="resume"
-              className="img-fluid resum"
-              style={{ maxHeight: "800px" }}
-            />
-          </Col>
+          <Button variant="primary" href={pdf} target="_blank">
+            <AiOutlineDownload />
+            &nbsp;Download CV
+          </Button>
         </Row>
 
         <Row className="resume">
-          <Document>
-            <Page scale={width > 786 ? 1.7 : 0.6} />
+          <Document file={pdf} className="d-flex justify-content-center">
+            <Page
+              pageNumber={1}
+              scale={1.1}
+              renderAnnotationLayer={false}
+              renderTextLayer={false}
+            />
+            <Page
+              pageNumber={2}
+              scale={1.1}
+              renderAnnotationLayer={false}
+              renderTextLayer={false}
+            />
           </Document>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
+          <Button variant="primary" href={pdf} target="_blank">
             <AiOutlineDownload />
-            &#x1F50D; Click To View
+            &nbsp;Download CV
           </Button>
         </Row>
       </Container>
