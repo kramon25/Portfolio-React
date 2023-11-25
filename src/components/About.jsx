@@ -29,7 +29,7 @@ export default function About() {
               <strong className="purple">
                 <ImPointRight />
               </strong>{" "}
-              Travelling
+              Traveling
             </li>
             <li className="about-activity">
               <strong className="purple">
