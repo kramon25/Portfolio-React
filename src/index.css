@@ -150,7 +150,7 @@ body {
     background-color: lightblue;
     opacity: 0.7;
     width: 0px;
-    height: calc(37vh - 60px);
+    height: calc(40vh - 70px);
     transition: all 0.3s ease-in;
     overflow: hidden;
     border-radius: 2%;

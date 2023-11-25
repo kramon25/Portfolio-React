@@ -26,7 +26,7 @@ export default function Certs() {
             />
           </Col>
           <h2>
-            Full Stack <strong className="purple">Developer</strong>
+            Full Stack <strong className="purple"> Web Developer</strong>
           </h2>
           <Col md={5} style={{ paddingBottom: 20 }}>
             <img
