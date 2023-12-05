@@ -33,12 +33,12 @@ export default function Resume() {
               renderAnnotationLayer={false}
               renderTextLayer={false}
             />
-            <Page
+            {/* <Page
               pageNumber={2}
               scale={1.1}
               renderAnnotationLayer={false}
               renderTextLayer={false}
-            />
+            /> */}
           </Document>
         </Row>
 

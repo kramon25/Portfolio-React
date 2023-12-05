@@ -58,6 +58,10 @@ body {
   font-size: 30px;
 }
 
+.siteName:hover {
+  color: red;
+}
+
 .nav ul {
   padding: 0;
   margin: 0;
@@ -139,15 +143,11 @@ body {
     cursor: pointer;
   }
 
-  .menu-icon:hover {
-    color: blue;
-  }
-
   .nav-elements {
     position: absolute;
     right: 0;
     top: 60px;
-    background-color: lightblue;
+    background-color: white;
     opacity: 0.7;
     width: 0px;
     height: calc(40vh - 70px);
