@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import HTML from "../../src/assets/frontendcertificate.png";
-import Soon from "../../src/assets/images/comingsonn.png";
+import upenn from "../../src/assets/images/upenncert.png";
 
 export default function Certs() {
   return (
@@ -17,20 +17,23 @@ export default function Certs() {
             fontSize: "20px",
           }}
         >
+          <h2>
+            Full Stack <strong className="purple"> Web Developer</strong>
+          </h2>
           <Col md={5} style={{ paddingBottom: 20 }}>
             <img
-              src={HTML}
+              src={upenn}
               alt="avatar"
               className="img-fluid two"
               style={{ maxHeight: "450px" }}
             />
           </Col>
           <h2>
-            Full Stack <strong className="purple"> Web Developer</strong>
+            Responsive <strong className="purple"> HTML & CSS</strong>
           </h2>
           <Col md={5} style={{ paddingBottom: 20 }}>
             <img
-              src={Soon}
+              src={HTML}
               alt="avatar"
               className="img-fluid two"
               style={{ maxHeight: "450px" }}

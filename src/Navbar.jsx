@@ -1,8 +1,10 @@
 import { NavLink, Link, useMatch, useResolvedPath } from "react-router-dom";
 import { useState } from "react";
+import menuicon from "../src/assets/images/menu.svg";
 
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false);
+  const toggle = () => setShowNavbar(!showNavbar);
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
@@ -16,10 +18,15 @@ export default function Navbar() {
       </div>
       <div>
         <div className="menu-icon" onClick={handleShowNavbar}>
-          Navigation
+          <img
+            src={menuicon}
+            alt="svg"
+            className="menu"
+            style={{ maxHeight: "40px" }}
+          />
         </div>
         <div className={`nav-elements  ${showNavbar && "active"}`}>
-          <ul>
+          <ul onClick={toggle}>
             <NavLink to="/">Home</NavLink>
             <NavLink to="/About">About</NavLink>
             <NavLink to="/Portfolio">Portfolio</NavLink>

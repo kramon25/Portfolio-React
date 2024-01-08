@@ -150,14 +150,14 @@ body {
     background-color: white;
     opacity: 0.7;
     width: 0px;
-    height: calc(40vh - 70px);
+    /* height: calc(40vh - 70px); */
     transition: all 0.3s ease-in;
     overflow: hidden;
     border-radius: 2%;
   }
 
   .nav-elements.active {
-    width: 270px;
+    width: 200px;
   }
 
   .nav-elements ul {
@@ -169,6 +169,15 @@ body {
     margin-right: unset;
     margin-top: 22px;
   }
+}
+
+.menu {
+  position: fixed;
+  right: 10px;
+  top: 1px;
+  border: 1px solid #fff;
+  border-radius: 20%;
+  border-width: inherit;
 }
 
 /* ******************HOME SECTION****************** */
