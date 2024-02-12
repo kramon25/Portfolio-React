@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-import pdf from "../../src/assets/images/FullStackResume.pdf";
+import pdf from "../../src/assets/images/Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -33,12 +33,12 @@ export default function Resume() {
               renderAnnotationLayer={false}
               renderTextLayer={false}
             />
-            {/* <Page
+            <Page
               pageNumber={2}
               scale={1.1}
               renderAnnotationLayer={false}
               renderTextLayer={false}
-            /> */}
+            />
           </Document>
         </Row>
 
