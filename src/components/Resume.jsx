@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-import pdf from "../../src/assets/images/Resume.pdf";
+import pdf from "../../src/assets/images/Kenneth_Ramondo_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
